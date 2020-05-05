@@ -68,7 +68,7 @@ void Competition::mjoueur()
    m=participant[0].meilleur_joueur();
    for (int i=1;i<32;i++)
    {
-       if(participant[i].meilleur_joueur().note_total()>participant[i-1].meilleur_joueur().note_total())
+       if(participant[i].meilleur_joueur().note_total()>m.note_total())
             m=participant[i].meilleur_joueur();
    }
    cout<<"meilleur joueur de la competition :"<<endl;
