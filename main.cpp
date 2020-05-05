@@ -86,6 +86,7 @@ int main()
                       if(y2==1)
                       {
                           c.ajouter_joueur(y-1);
+                          c.download_competition();
 
 
 
@@ -93,6 +94,7 @@ int main()
                       if(y2==2)
                       {
                           c.modifier_joueur(y-1);
+                          c.download_competition();
 
 
                       }
@@ -116,12 +118,14 @@ int main()
                       if (y2==1)
                       {
                           c.ajouter_staff(y-1);
+                          c.download_competition();
 
 
                       }
                       if(y2==2)
                         {
                           c.modifier_staff(y-1);
+                          c.download_competition();
 
 
                         }
@@ -177,30 +181,36 @@ int main()
                    cin>>y2;
                    if (y2==1)
                    {
-                     c.jouer_match(0,0);
+                       c.jouer_match(0,0);
+                       c.download_competition();
+                       
 
                    }
                    if (y2==2)
                    {
-                     c.jouer_match(0,1);
+                       c.jouer_match(0,1);
+                       c.download_competition();
 
                    }
                     if (y2==3)
                    {
-                     c.jouer_match(0,2);
+                        c.jouer_match(0,2);
+                        c.download_competition();
 
 
 
                    }
                    if (y2==4)
                    {
-                     c.jouer_match(0,3);
+                       c.jouer_match(0,3);
+                       c.download_competition();
 
 
                    }
                    if (y2==5)
                    {
-                     c.jouer_match(0,4);
+                       c.jouer_match(0,4);
+                       c.download_competition();
 
 
 
@@ -208,6 +218,7 @@ int main()
                    if (y2==6)
                    {
                      c.jouer_match(0,5);
+                       c.download_competition();
 
 
 
@@ -227,37 +238,40 @@ int main()
                    if (y2==1)
                    {
                      c.jouer_match(1,0);
+                       c.download_competition();
 
 
                    }
                    if (y2==2)
                    {
-                     c.jouer_match(1,1);
+                       c.jouer_match(1,1);
+                       c.download_competition();
 
                    }
                    if (y2==3)
                    {
-                     c.jouer_match(1,2);
+                       c.jouer_match(1,2);
+                       c.download_competition();
 
 
                    }
                    if (y2==4)
                    {
-                     c.jouer_match(1,3);
+                       c.jouer_match(1,3);
+                       c.download_competition();
 
 
 
                    }
                    if (y2==5)
                    {
-                     c.jouer_match(1,4);
-
-
-
+                       c.jouer_match(1,4);
+                       c.download_competition();
                    }
                    if (y2==6)
                    {
-                     c.jouer_match(1,5);
+                       c.jouer_match(1,5);
+                       c.download_competition();
 
 
                    }
@@ -273,37 +287,43 @@ int main()
                    cin>>y2;
                    if (y2==1)
                    {
-                     c.jouer_match(2,0);
+                       c.jouer_match(2,0);
+                       c.download_competition();
 
 
                    }
                    if (y2==2)
                    {
-                     c.jouer_match(2,1);
+                       c.jouer_match(2,1);
+                       c.download_competition();
 
 
                    }
                    if (y2==3)
                    {
-                     c.jouer_match(2,2);
+                       c.jouer_match(2,2);
+                       c.download_competition();
 
 
                    }
                    if (y2==4)
                    {
-                     c.jouer_match(2,3);
+                       c.jouer_match(2,3);
+                       c.download_competition();
 
 
                    }
                    if (y2==5)
                    {
-                     c.jouer_match(2,4);
+                       c.jouer_match(2,4);
+                       c.download_competition();
 
 
                    }
                    if (y2==6)
                    {
-                     c.jouer_match(2,5);
+                       c.jouer_match(2,5);
+                       c.download_competition();
 
 
                    }
@@ -319,39 +339,40 @@ int main()
                      cin>>y2;
                    if (y2==1)
                    {
-                     c.jouer_match(3,0);
+                       c.jouer_match(3,0);
+                       c.download_competition();
 
 
                    }
                    if (y2==2)
                    {
-                     c.jouer_match(3,1);
+                       c.jouer_match(3,1);
+                       c.download_competition();
 
 
                    }
                    if (y2==3)
                    {
-                     c.jouer_match(3,2);
-
+                       c.jouer_match(3,2);
+                       c.download_competition();
 
                    }
                    if (y2==4)
                    {
-                     c.jouer_match(3,3);
+                       c.jouer_match(3,3);
+                       c.download_competition();
 
 
                    }
                    if (y2==5)
                    {
-                     c.jouer_match(3,4);
-
-
+                       c.jouer_match(3,4);
+                       c.download_competition();
                    }
                    if (y2==6)
                    {
-                     c.jouer_match(3,5);
-
-
+                       c.jouer_match(3,5);
+                       c.download_competition();
                    }
                    }while (y2!=0);
                }
@@ -364,33 +385,39 @@ int main()
                      cout<<"entrez votre choix: ";
                      cin>>y2;
                      if (y2==1)
+                         
                      {
-                     c.jouer_match(4,0);
-
+                         c.jouer_match(4,0);
+                         c.download_competition();
                      }
                      if (y2==2)
                      {
-                     c.jouer_match(4,1);
+                         c.jouer_match(4,1);
+                         c.download_competition();
 
                      }
                      if (y2==3)
                      {
-                     c.jouer_match(4,2);
+                         c.jouer_match(4,2);
+                         c.download_competition();
 
                      }
                      if (y2==4)
                      {
-                     c.jouer_match(4,3);
+                         c.jouer_match(4,3);
+                         c.download_competition();
 
                      }
                      if (y2==5)
                      {
-                     c.jouer_match(4,4);
+                         c.jouer_match(4,4);
+                         c.download_competition();
 
                      }
                      if (y2==6)
                      {
-                     c.jouer_match(4,5);
+                         c.jouer_match(4,5);
+                         c.download_competition();
 
                      }
                     }while (y2!=0);
@@ -404,33 +431,38 @@ int main()
                      cout<<"entrez votre choix: ";
                      cin>>y2;
                      if (y2==1)
-                      {
-                        c.jouer_match(5,0);
-
+                     {
+                         c.jouer_match(5,0);
+                         c.download_competition();
                       }
                      if (y2==2)
                       {
-                        c.jouer_match(5,1);
+                         c.jouer_match(5,1);
+                         c.download_competition();
 
                       }
                      if (y2==3)
                       {
-                        c.jouer_match(5,2);
+                         c.jouer_match(5,2);
+                         c.download_competition();
 
                       }
                      if (y2==4)
                       {
-                        c.jouer_match(5,3);
+                         c.jouer_match(5,3);
+                         c.download_competition();
 
                       }
                      if (y2==5)
                       {
-                        c.jouer_match(5,4);
+                         c.jouer_match(5,4);
+                         c.download_competition();
 
                       }
                      if (y2==6)
                       {
-                        c.jouer_match(5,5);
+                         c.jouer_match(5,5);
+                         c.download_competition();
 
                       }
                    }while (y2!=0);
@@ -445,32 +477,38 @@ int main()
                       cin>>y2;
                       if (y2==1)
                        {
-                        c.jouer_match(6,0);
+                          c.jouer_match(6,0);
+                          c.download_competition();
 
                        }
                       if (y2==2)
                        {
-                        c.jouer_match(6,1);
+                          c.jouer_match(6,1);
+                          c.download_competition();
 
                        }
                       if (y2==3)
                        {
-                        c.jouer_match(6,2);
+                          c.jouer_match(6,2);
+                          c.download_competition();
 
                        }
                       if (y2==4)
                        {
-                        c.jouer_match(6,3);
+                          c.jouer_match(6,3);
+                          c.download_competition();
 
                        }
                       if (y2==5)
                        {
-                        c.jouer_match(6,4);
+                          c.jouer_match(6,4);
+                          c.download_competition();
 
                        }
                       if (y2==6)
                        {
-                        c.jouer_match(6,5);
+                          c.jouer_match(6,5);
+                          c.download_competition();
 
                        }
                      }while (y2!=0);
@@ -485,32 +523,35 @@ int main()
                       cin>>y2;
                       if (y2==1)
                         {
-                        c.jouer_match(7,0);
-
+                          c.jouer_match(7,0);
+                          c.download_competition();
                         }
                       if (y2==2)
                         {
-                         c.jouer_match(7,1);
-
+                          c.jouer_match(7,1);
+                          c.download_competition();
                         }
                       if (y2==3)
                         {
-                         c.jouer_match(7,2);
-
+                          c.jouer_match(7,2);
+                          c.download_competition();
                         }
                       if (y2==4)
                         {
-                         c.jouer_match(7,3);
+                          c.jouer_match(7,3);
+                          c.download_competition();
 
                         }
                       if (y2==5)
                         {
-                         c.jouer_match(7,4);
+                          c.jouer_match(7,4);
+                          c.download_competition();
 
                         }
                       if (y2==6)
                         {
-                         c.jouer_match(7,5);
+                          c.jouer_match(7,5);
+                          c.download_competition();
 
                         }
                      }while (y2!=0);
@@ -554,43 +595,50 @@ int main()
                           if(y2==1)
                           {
                               c.jouer_match_huitieme(0);
+                              c.download_competition();
 
 
                           }
                           if(y2==2)
                           {
                               c.jouer_match_huitieme(1);
+                              c.download_competition();
 
                           }
                           if(y2==3)
                           {
                               c.jouer_match_huitieme(2);
+                              c.download_competition();
 
                           }
                           if(y2==4)
                           {
                               c.jouer_match_huitieme(3);
+                              c.download_competition();
 
                           }
                           if(y2==5)
                           {
                               c.jouer_match_huitieme(4);
+                              c.download_competition();
 
                           }
                           if(y2==6)
                           {
                               c.jouer_match_huitieme(5);
+                              c.download_competition();
 
                           }
                           if(y2==7)
                           {
                               c.jouer_match_huitieme(6);
+                              c.download_competition();
 
                           }
                           if(y2==8)
                           {
                               c.jouer_match_huitieme(7);
-
+                              c.download_competition();
                           }
                          }while(y2!=0);}
                      else
@@ -609,27 +657,31 @@ int main()
                         cin>>y2;
                         if(y2==1)
                         {
-                           c.jouer_match_quart(0);
+                            c.jouer_match_quart(0);
+                            c.download_competition();
 
                         }
                         if(y2==2)
                         {
-                           c.jouer_match_quart(1);
+                            c.jouer_match_quart(1);
+                            c.download_competition();
 
                         }
                         if(y2==3)
-                        {
-                           c.jouer_match_quart(2);
+                        { 
+                            c.jouer_match_quart(2);
+                            c.download_competition();
 
                         }
                         if(y2==4)
                         {
-                           c.jouer_match_quart(3);
+                            c.jouer_match_quart(3);
+                            c.download_competition();
 
                         }
                         if(y2==5)
-                        {
-                           c.enregistrer_competition();
+                        { 
+                            c.enregistrer_competition();
                            return 0;
                         }
 
@@ -659,11 +711,13 @@ int main()
                          if(y2==1)
                          {
                              c.jouer_match_demi(0);
+                             c.download_competition();
 
                          }
                          if(y2==2)
                          {
                              c.jouer_match_demi(1);
+                             c.download_competition();
 
                          }
                         }while(y2!=0); }
@@ -691,6 +745,7 @@ int main()
                            if(y2==1)
                            {
                                c.jouer_match_f();
+                               c.download_competition();
 
                            }
                           }while(y2!=0);}
